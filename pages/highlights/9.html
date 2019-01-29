@@ -1,0 +1,43 @@
+
+    <h3 class="sectionHead" id="section-9">
+      <span class="titlemark">9.</span> <a id="x1-90009"></a>Scalable joint parameter&#8211;model reduction for Bayesian inverse problems (MIT, UT Austin)
+    </h3><!--l. 3-->
+    <p class="noindent">
+      <span class="cmbx-10">Research thrusts:</span> <span class="cmti-10">Advanced methods for inference; Validation, adaptation, and</span> <span class="cmti-10">management of models</span><br class="newline">
+      <span class="cmbx-10">Research sub-thrusts:</span> <span class="cmti-10">Goal-oriented, multifidelity, and multiscale methods for</span> <span class="cmti-10">inference; Goal-driven adaptive model reduction</span> <!--l. 8-->
+    </p>
+    <p class="indent">
+      The solution of inverse problems is central to prediction and decision making in a host of applications, ranging from subsurface contaminant remediation to understanding the Antarctic ice sheet&#8217;s impact on sea level rise. Indeed, inverse problems formalize the essential task of fusing physical models with observational data. The Bayesian approach to inversion offers a rigorous foundation for quantifying uncertainties in parameters and in subsequent predictions. Yet two major computational challenges have impeded the application of Bayesian inversion to complex and large-scale systems: the scaling of posterior sampling algorithms to <span class="cmti-10">high-dimensional parameter spaces</span> and the computational cost of <span class="cmti-10">repeated forward</span> <span class="cmti-10">model evaluations</span>. <!--l. 20-->
+    </p>
+    <p class="indent">
+      Our recent collaborative work [<a href="?refs#XROM:CMW_2016">38</a>] has demonstrated how incomplete or noisy data, the state variation and parameter dependence of the forward model, and correlations in the prior distribution collectively provide useful structure that can be exploited for dimension reduction&#8212;both in the parameter space of the inverse problem and in the state space of the forward model.
+    </p>
+    <hr class="figure">
+    <div class="figure">
+      <a id="x1-9001r13"></a>
+      <div class="center">
+        <!--l. 28-->
+        <p class="noindent">
+          <!--l. 29-->
+        </p>
+        <p class="noindent">
+          <div class="row"><div class="col-md-12"><img alt="PIC" src="/pages/highlights/figures/gomos_setting-.png"></div></div>
+        </p>
+      </div><br>
+      <div class="caption">
+        <span class="id">Figure&#x00A0;13:</span> <span class="content">Atmospheric remote sensing inverse problem, using satellite observations from GOMOS (<span class="cmti-10">Global Ozone MOnitoring System</span>). Here we apply joint parameter and model reduction to characterize the posterior distribution of multiple atmospheric gas concentration profiles.</span>
+      </div><!--tex4ht:label?: x1-9001r13 -->
+      <!--l. 39-->
+      <p class="indent"></p>
+    </div>
+    <hr class="endfigure">
+    <!--l. 40-->
+    <p class="indent">
+      To this end, we have developed algorithms that jointly construct low-dimensional subspaces of the parameter space and the state space in order to accelerate the Bayesian solution of the inverse problem. A crucial feature of our approach is that the computational cost of posterior sampling is rendered <span class="cmti-10">independent</span> of the dimension of the full model state or the parameters. The scalability of this approach is the result of several new insights: first, that parameter reduction, informed by the structure of the inverse problem, should precede parameter reduction; and second, that model reduction should exploit &#8220;locality&#8221; in two complementary senses&#8212;both posterior concentration and input space dimension reduction. <!--l. 55-->
+    </p>
+    <p class="indent">
+      Application to an ice sheet model problem based on the geometry of the Arolla Glacier has demonstrated parameter dimension reduction by multiple orders of magnitude and a hundred-fold reduction in the state dimension. We have also applied the method to atmospheric remote sensing, inferring gas concentration profiles from star occultation measurements (as illustrated in Figure&#x00A0;<a href="?refs#x1-9001r13">13<!--tex4ht:ref: fig:gomos --></a>). The parameter dimension in this problem is in the thousands and the data number in the tens of thousands, but computational costs scale with an intrinsic dimension of only twenty. <!--l. 65-->
+    </p>
+    <p class="indent">
+      This work&#8212;and its application to several complex models&#8212;is a result of close collaboration between PI Ghattas (UT-Austin), PIs Marzouk and Willcox (MIT), and former DiaMonD postdocs and now assistant professors N. Petra (UC Merced), T. Cui (Monash), and B. Peherstorfer (Wisconsin). This work is also founded on mathematical results and algorithmic approaches produced by several previous years of DiaMonD support: optimal dimension reduction for linear [<a href="?refs#XDimRedu:Spantini_etal_2015">128</a>] and linearized [<a href="?refs#XBui-ThanhGhattasMartinEtAl13">18</a>,&#x00A0;<a href="?refs#XIPSG15">62</a>] inverse problems, online and data-driven model reduction [<a href="?refs#XROM:CMW_2015">37</a>], reduced-dimensional Markov chain Monte Carlo sampling [<a href="?refs#XDimRedu:Cui_etal_2014">36</a>,&#x00A0;<a href="?refs#XPetraMartinStadlerEtAl14">114</a>], and dimension-independent yet geometrically-informed (DILI) sampling schemes [<a href="?refs#XMCMC:CLM_2016">35</a>]. The latter also involves collaboration with DOE laboratory staff at ORNL. <a id="x1-9002r22"></a>
+    </p>

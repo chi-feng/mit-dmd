@@ -1,0 +1,14 @@
+RewriteEngine On
+
+RewriteRule ^admin?$ admin.php [NC,L]
+RewriteRule ^/?$ index.php?p=home [NC,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php
+
+
+<Files admin.php>
+  AuthType SSLCert
+  Require user chifeng elizqian kameeko kwillcox bokramer alexfeld
+  ErrorDocument 401 /__scripts/needcerts
+</Files>

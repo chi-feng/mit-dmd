@@ -1,0 +1,41 @@
+    <h3 class="sectionHead" id="section-3">
+      <span class="titlemark">3.</span> <a id="x1-30003"></a>Characterization of subsurface geologic heterogeneity: A new perspective using dimensionality reduction (LANL)
+    </h3><!--l. 7-->
+    <p class="noindent">
+      <span class="cmbx-10">Research thrusts:</span> <span class="cmti-10">Advanced methods for inference</span><br class="newline">
+      <span class="cmbx-10">Research sub-thrusts:</span> <span class="cmti-10">Dimensionality reduction</span> <!--l. 10-->
+    </p>
+    <p class="indent">
+      Model inversion and parameter calibration play an important role in charactering heterogeneity of subsurface geologic environments. In LANL&#8217;s Earth &amp; Environmental Sciences Division, researchers are interested in identifying model parameters (e.g., permeability) given a set of observations (e.g., hydraulic heads) as shown in Fig.&#x00A0;<a href="#x1-3001r5">5<!--tex4ht:ref: fig:InverseModel --></a>. The permeability of a porous medium is a physical quantity of great importance for predicting flow and transport of fluids and contaminants in the subsurface.
+    </p>
+    <hr class="figure">
+    <div class="figure">
+      <a id="x1-3001r5"></a>
+      <div class="centerline">
+        <div class="row"><div class="col-sm-6 col-sm-offset-3"><img alt="PIC" src="/pages/highlights/figures/OneDExampleUpdated3.png"></div></div>
+      </div><br>
+      <div class="caption">
+        <span class="id">Figure&#x00A0;5:</span> <span class="content">Schematic representation of a typical hydraulic tomographic problem where observations of hydraulic heads are applied to estimate hydraulic permeability.</span>
+      </div><!--tex4ht:label?: x1-3001r5 -->
+      <!--l. 30-->
+      <p class="indent"></p>
+    </div>
+    <hr class="endfigure">
+    <!--l. 32-->
+    <p class="indent">
+      For different subsurface applications, a well-understood distribution of permeability heterogeneity can be crucial for (1) forecasting production performance of geothermal reservoirs, (2) extracting oil and gas, and (3) estimating pathways of subsurface contaminant transport. However, because the number of observations is often large for practical problems and the model unknown parameters are also numerous, conventional methods for model inversion can be extremely computationally expensive. We have developed a novel computationally efficient method exploiting dimensionality reduction ideas and parallelism to make large-scale model calibration problems tractable [<a href="?refs#XLin2016">80</a>]. By projecting the parameter space in a Levenberg-Marquardt algorithm onto a much smaller subspace using a Krylov subspace method, the dimensionality of the problem is significantly reduced. Furthermore, the algorithm stores the computed Krylov subspace and recycles it for future use in the calibration process. As result, computational efficiency is significantly improved. The method is implemented in the MADS computational framework (<a class="url" href="http://mads.lanl.gov"><span class="cmtt-10">http://mads.lanl.gov</span></a>). Fig.&#x00A0;<a href="#x1-3004r6">6<!--tex4ht:ref: fig:Models --></a> illustrates inversion for a random transmissivity field from steady-state observations of hydraulic head. By comparing with conventional methods (Levenberg-Marquardt using standard QR and SVD solvers), our computational method yields a speed-up on the order of 10X to 100X.
+    </p>
+    <hr class="figure">
+    <div class="figure">
+      <a id="x1-3004r6"></a>
+      <div class="centerline">
+        <a id="x1-3002r1"></a><a id="x1-3003r2"></a>
+                <div class="row"><div class="col-sm-6"><img alt="PIC" src="/pages/highlights/figures/True_50x50-.png"></div><div class="col-sm-6"><img alt="PIC" src="/pages/highlights/figures/Inverted_QR_50x50-.png"></div></div>        
+      </div><br>
+      <div class="caption">
+        <span class="id">Figure&#x00A0;6:</span> <span class="content">(a) Synthetic transmissivity field. (b.) Result of the inverse solution from our new optimization algorithm. Locations of the hydraulic conductivity and hydraulic head observations are indicated with circles.</span>
+      </div><!--tex4ht:label?: x1-3004r6 -->
+      <!--l. 84-->
+      <p class="indent"></p>
+    </div>
+    <hr class="endfigure">

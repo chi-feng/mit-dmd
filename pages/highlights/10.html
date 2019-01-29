@@ -1,0 +1,28 @@
+
+    <h3 class="sectionHead" id="section-10">
+      <span class="titlemark">10.</span> <a id="x1-1000010"></a>An extreme scale implicit solver for highly-heterogeneous PDEs (UT-Austin, NYU)
+    </h3><!--l. 5-->
+    <p class="noindent">
+      <span class="cmbx-10">Research thrusts:</span> <span class="cmti-10">Fast &amp; reliable solution of multiphysics/multiscale problems</span><br class="newline">
+      <span class="cmbx-10">Research sub-thrusts:</span> <span class="cmti-10">Accurate, robust discretizations; Error estimation; Fast</span> <span class="cmti-10">solvers</span> <!--l. 10-->
+    </p>
+    <p class="indent">
+      Many PDE modeling problems within the DOE portfolio are characterized by a wide range of spatial scales, extreme heterogeneity/anisotropy in material properties, and severely nonlinear constitutive laws, often requiring high order discretizations, adaptive mesh refinement, and implicit solution. We have developed an extreme-scale parallel solver that is capable of solving such problems with optimal complexity and high parallel efficiency out to the limits of the largest available supercomputers.
+    </p>
+    <hr class="figure">
+    <div class="figure">
+      <a id="x1-10001r14"></a> <!--l. 21-->
+      <p class="noindent">
+        <div class="row"><div class="col-md-12"><img alt="PIC" src="/pages/highlights/figures/earth_3slice.png"><br></div></div>
+      </p>
+      <div class="caption">
+        <span class="id">Figure&#x00A0;14:</span> <span class="content">Slices through mantle convection model of earth, depicting aggressive mesh adaptivity at subducting plate boundaries and 8 orders of magnitude variation in viscosity (color). Solver achieves 96% parallel efficiency in scaling from 1 rack (16,384 cores) to 96 racks (1,572,864 cores) of Sequoia. Largest problem has 602 billion degrees of freedom.</span>
+      </div><!--tex4ht:label?: x1-10001r14 -->
+      <!--l. 31-->
+      <p class="indent"></p>
+    </div>
+    <hr class="endfigure">
+    <!--l. 34-->
+    <p class="indent">
+      To maximize accuracy and minimize runtime, the solver incorporates a number of advances, including aggressive multi-octree adaptive mesh refinement, mixed continuous-discontinuous discretization, arbitrarily-high-order accuracy, and hybrid spectral/geometric/algebraic multigrid. For saddle point problems, the solver employs a novel Schur complement preconditioner, which is provably spectrally equivalent to the exact Schur complement [<a href="?refs#XRudiStadlerGhattas16">124</a>] yet can be applied in <span class="cmmi-10">O</span>(<span class="cmmi-10">N</span>) time. Despite the significant challenges to extreme scalability presented by all of these features, we demonstrate that with careful attention to design of algorithms, data structures, and implementation, scalability of this algorithmically-optimal implicit solver to the full 1.6 million cores of Sequoia (the LLNL IBM BG/Q system) can be achieved while maintaining 96% parallel efficiency for severely nonlinear, ill-conditioned, heterogeneous, and anisotropic PDEs [<a href="?refs#XRMI+15">122</a>]. We have applied variants of the solver to very high resolution simulations of global mantle convection [<a href="?refs#XRMI+15">122</a>,&#x00A0;<a href="?refs#XRudiStadlerGhattas16_coppermountain">123</a>,&#x00A0;<a href="?refs#XRudiStadlerGhattas16">124</a>] (Fig&#x00A0;<a href="?refs#x1-10001r14">14<!--tex4ht:ref: fig-earth_3slice --></a>) and Antarctic ice sheet flow [<a href="?refs#XIPSG15">62</a>,&#x00A0;<a href="?refs#XISG15">63</a>]. This work received the 2015 Gordon Bell Prize [<a href="?refs#XRMI+15">122</a>], and an earlier version received the SC14 Best Poster Award (from 193 submissions). The paper describing the underlying numerical algorithms won Best Student Paper at the 2016 Copper Mountain Conference on Iterative Methods [<a href="?refs#XRudiStadlerGhattas16_coppermountain">123</a>]. Finally, Johann Rudi, the student who was first author on this work, will receive the ACM/IEEE George Michael Memorial HPC Fellowship at SC16. <a id="x1-10002r24"></a>
+    </p>

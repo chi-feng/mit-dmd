@@ -1,0 +1,681 @@
+
+    <h3 class="sectionHead" id="section-2">
+      <span class="titlemark">2.</span> <a id="x1-20002"></a>Stochastic inverse modeling and decision support using a measure-theoretic framework (CSU, UC Denver, UT Austin, FSU, LANL)
+    </h3><!--l. 3-->
+    <p class="noindent">
+      <span class="cmbx-10">Research thrusts:</span> <span class="cmti-10">Advanced methods for inference; Validation, adaptation and</span> <span class="cmti-10">management of models; Optimization under uncertainty</span><br class="newline">
+      <span class="cmbx-10">Research sub-thrusts:</span> <span class="cmti-10">Measure-theoretic methods for inverse sensitivity problems;</span> <span class="cmti-10">Goal-driven adaptive model reduction; Goal-driven model adaptivity; Model selection;</span> <span class="cmti-10">Optimal experimental design</span> <!--l. 12-->
+    </p>
+    <p class="indent">
+      We formed a collaborative team across multiple institutions to develop an innovative formulation and solution methodology for stochastic inverse problems. The methodology has been applied to parameter estimation and decision support problems arising in groundwater flow and transport modeling, a problem of great interest to DOE since many DOE facilities have long-standing issues with groundwater contamination. The project has involved mathematical analysis and algorithm development of a measure theoretic approach, novel applications that in turn have led to new developments in the methodology, and software development. Project personnel have completed internships at partner institutions, and the research was the subject of a workshop held at UC Denver in July 2015. <!--l. 30-->
+    </p>
+    <p class="indent">
+      In addition to ground-breaking theoretical advances for stochastic inverse problems, an important outcome of this project has been the development of the open-source software package BET [<a href="?refs#XBET+14">19</a>].
+    </p>
+    <hr class="figure">
+    <div class="figure">
+      <a id="x1-2001r4"></a>
+      <div class="tabular">
+        <table cellpadding="0" cellspacing="0" class="tabular" id="TBL-1">
+          <colgroup id="TBL-1-1g">
+            <col id="TBL-1-1">
+          </colgroup>
+          <colgroup id="TBL-1-2g">
+            <col id="TBL-1-2">
+          </colgroup>
+          <colgroup id="TBL-1-3g">
+            <col id="TBL-1-3">
+          </colgroup>
+          <tr class="hline">
+            <td>
+              <hr>
+            </td>
+            <td>
+              <hr>
+            </td>
+            <td>
+              <hr>
+            </td>
+          </tr>
+          <tr id="TBL-1-1-" style="vertical-align:baseline;">
+            <td class="td11" id="TBL-1-1-1" style="white-space:nowrap; text-align:right;">
+              <span class="cmmi-8">P</span><span class="cmr-8">(</span><span class="cmmi-8">A</span> <span class="cmsy-8">&#x2282;</span> <span class="cmr-8">&#x039B;)</span>
+            </td>
+            <td class="td11" id="TBL-1-1-2" style="white-space:nowrap; text-align:right;">
+              <span class="cmr-8"># samples in</span> <span class="cmmi-8">A</span>
+            </td>
+            <td class="td11" id="TBL-1-1-3" style="white-space:nowrap; text-align:right;">
+              <span class="cmmi-8">&#x03BC;</span><span class="cmr-8">(</span><span class="cmmi-8">A</span> <span class="cmsy-8">&#x2282;</span> <span class="cmr-8">&#x039B;)</span><span class="cmmi-8">&#x2215;&#x03BC;</span><span class="cmr-8">(&#x039B;)</span>
+            </td>
+          </tr>
+          <tr class="hline">
+            <td>
+              <hr>
+            </td>
+            <td>
+              <hr>
+            </td>
+            <td>
+              <hr>
+            </td>
+          </tr>
+          <tr id="TBL-1-2-" style="vertical-align:baseline;">
+            <td class="td11" id="TBL-1-2-1" style="white-space:nowrap; text-align:right;">
+              <span class="cmr-8">100</span>
+            </td>
+            <td class="td11" id="TBL-1-2-2" style="white-space:nowrap; text-align:right;">
+              <span class="cmr-8">442346</span>
+            </td>
+            <td class="td11" id="TBL-1-2-3" style="white-space:nowrap; text-align:right;">
+              <span class="cmr-8">0.53113</span>
+            </td>
+          </tr>
+          <tr class="hline">
+            <td>
+              <hr>
+            </td>
+            <td>
+              <hr>
+            </td>
+            <td>
+              <hr>
+            </td>
+          </tr>
+          <tr id="TBL-1-3-" style="vertical-align:baseline;">
+            <td class="td11" id="TBL-1-3-1" style="white-space:nowrap; text-align:right;">
+              <span class="cmr-8">95</span>
+            </td>
+            <td class="td11" id="TBL-1-3-2" style="white-space:nowrap; text-align:right;">
+              <span class="cmr-8">115551</span>
+            </td>
+            <td class="td11" id="TBL-1-3-3" style="white-space:nowrap; text-align:right;">
+              <span class="cmr-8">0.11616</span>
+            </td>
+          </tr>
+          <tr class="hline">
+            <td>
+              <hr>
+            </td>
+            <td>
+              <hr>
+            </td>
+            <td>
+              <hr>
+            </td>
+          </tr>
+          <tr id="TBL-1-4-" style="vertical-align:baseline;">
+            <td class="td11" id="TBL-1-4-1" style="white-space:nowrap; text-align:right;">
+              <span class="cmr-8">90</span>
+            </td>
+            <td class="td11" id="TBL-1-4-2" style="white-space:nowrap; text-align:right;">
+              <span class="cmr-8">81081</span>
+            </td>
+            <td class="td11" id="TBL-1-4-3" style="white-space:nowrap; text-align:right;">
+              <span class="cmr-8">0.07789</span>
+            </td>
+          </tr>
+          <tr class="hline">
+            <td>
+              <hr>
+            </td>
+            <td>
+              <hr>
+            </td>
+            <td>
+              <hr>
+            </td>
+          </tr>
+          <tr id="TBL-1-5-" style="vertical-align:baseline;">
+            <td class="td11" id="TBL-1-5-1" style="white-space:nowrap; text-align:right;">
+              <span class="cmr-8">75</span>
+            </td>
+            <td class="td11" id="TBL-1-5-2" style="white-space:nowrap; text-align:right;">
+              <span class="cmr-8">37791</span>
+            </td>
+            <td class="td11" id="TBL-1-5-3" style="white-space:nowrap; text-align:right;">
+              <span class="cmr-8">0.03519</span>
+            </td>
+          </tr>
+          <tr class="hline">
+            <td>
+              <hr>
+            </td>
+            <td>
+              <hr>
+            </td>
+            <td>
+              <hr>
+            </td>
+          </tr>
+          <tr id="TBL-1-6-" style="vertical-align:baseline;">
+            <td class="td11" id="TBL-1-6-1" style="white-space:nowrap; text-align:right;">
+              <span class="cmr-8">50</span>
+            </td>
+            <td class="td11" id="TBL-1-6-2" style="white-space:nowrap; text-align:right;">
+              <span class="cmr-8">10071</span>
+            </td>
+            <td class="td11" id="TBL-1-6-3" style="white-space:nowrap; text-align:right;">
+              <span class="cmr-8">0.00914</span>
+            </td>
+          </tr>
+          <tr class="hline">
+            <td>
+              <hr>
+            </td>
+            <td>
+              <hr>
+            </td>
+            <td>
+              <hr>
+            </td>
+          </tr>
+          <tr id="TBL-1-7-" style="vertical-align:baseline;">
+            <td class="td11" id="TBL-1-7-1" style="white-space:nowrap; text-align:right;">
+              <span class="cmr-8">25</span>
+            </td>
+            <td class="td11" id="TBL-1-7-2" style="white-space:nowrap; text-align:right;">
+              <span class="cmr-8">1083</span>
+            </td>
+            <td class="td11" id="TBL-1-7-3" style="white-space:nowrap; text-align:right;">
+              <span class="cmr-8">0.00103</span>
+            </td>
+          </tr>
+          <tr class="hline">
+            <td>
+              <hr>
+            </td>
+            <td>
+              <hr>
+            </td>
+            <td>
+              <hr>
+            </td>
+          </tr>
+          <tr id="TBL-1-8-" style="vertical-align:baseline;">
+            <td class="td11" id="TBL-1-8-1" style="white-space:nowrap; text-align:right;"></td>
+          </tr>
+        </table>
+      </div><br>
+      <div class="caption">
+        <span class="id">Table&#x00A0;4:</span> <span class="content">Data for regions of highest probability.</span>
+      </div><!--tex4ht:label?: x1-2001r4 -->
+      <!--l. 51-->
+      <p class="indent"></p>
+    </div>
+    <hr class="endfigure">
+    <!--l. 52-->
+    <p class="indent">
+      BET is a Python package for solving measure-theoretic uncertainty quantification problems. It contains modules for sampling techniques, surrogate modeling, the solution of inverse problems, and for post-processing and plotting results. There are also additional modules that are in active development within the sensitivity subpackage including simulation-based optimal experimental design. The BET package has been applied to a stochastic inverse problem for groundwater contamination, motivated by a chromium-contamination site at LANL [<a href="?refs#XMBD+15">96</a>]. Measured contaminant concentration data from wells were used as the observable quantities of interest (QoI) in the solution to the stochastic inverse problem. Using BET, high probability events in the parameter space are easily identified and analyzed; see Table <a href="?refs#x1-2001r4">4<!--tex4ht:ref: Tab:HighProb --></a>, which shows that the parameters with highest probability are actually contained in regions of small measure in parameter space.
+    </p>
+    <div class="table">
+      <!--l. 72-->
+      <p class="indent">
+        <a id="x1-2002r1"></a>
+      </p>
+      <hr class="float">
+      <div class="float">
+        <div class="tabular">
+          <table cellpadding="0" cellspacing="0" class="tabular" id="TBL-2">
+            <colgroup id="TBL-2-1g">
+              <col id="TBL-2-1">
+            </colgroup>
+            <colgroup id="TBL-2-2g">
+              <col id="TBL-2-2">
+            </colgroup>
+            <colgroup id="TBL-2-3g">
+              <col id="TBL-2-3">
+            </colgroup>
+            <colgroup id="TBL-2-4g">
+              <col id="TBL-2-4">
+            </colgroup>
+            <colgroup id="TBL-2-5g">
+              <col id="TBL-2-5">
+            </colgroup>
+            <colgroup id="TBL-2-6g">
+              <col id="TBL-2-6">
+            </colgroup>
+            <colgroup id="TBL-2-7g">
+              <col id="TBL-2-7">
+            </colgroup>
+            <colgroup id="TBL-2-8g">
+              <col id="TBL-2-8">
+            </colgroup>
+            <tr class="hline">
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+            </tr>
+            <tr id="TBL-2-1-" style="vertical-align:baseline;">
+              <td class="td11" id="TBL-2-1-1" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">Well</span>
+              </td>
+              <td class="td11" id="TBL-2-1-2" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">time [y]</span>
+              </td>
+              <td class="td11" colspan="6" id="TBL-2-1-3" style="white-space:nowrap; text-align:center;">
+                <div class="multicolumn" style="white-space:nowrap; text-align:center;">
+                  <span class="cmr-8">Remediation Strategy</span>
+                </div>
+              </td>
+            </tr>
+            <tr class="hline">
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+            </tr>
+            <tr id="TBL-2-2-" style="vertical-align:baseline;">
+              <td class="td11" id="TBL-2-2-1" style="white-space:nowrap; text-align:center;"></td>
+              <td class="td11" id="TBL-2-2-2" style="white-space:nowrap; text-align:center;"></td>
+              <td class="td11" id="TBL-2-2-3" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">None</span>
+              </td>
+              <td class="td11" id="TBL-2-2-4" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">R1</span>
+              </td>
+              <td class="td11" id="TBL-2-2-5" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">R2</span>
+              </td>
+              <td class="td11" id="TBL-2-2-6" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">R3</span>
+              </td>
+              <td class="td11" id="TBL-2-2-7" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">R4</span>
+              </td>
+              <td class="td11" id="TBL-2-2-8" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">R5</span>
+              </td>
+            </tr>
+            <tr class="hline">
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+            </tr>
+            <tr id="TBL-2-3-" style="vertical-align:baseline;">
+              <td class="td11" id="TBL-2-3-1" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">w8</span>
+              </td>
+              <td class="td11" id="TBL-2-3-2" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">5</span>
+              </td>
+              <td class="td11" id="TBL-2-3-3" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">0.2121</span>
+              </td>
+              <td class="td11" id="TBL-2-3-4" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">0.0562</span>
+              </td>
+              <td class="td11" id="TBL-2-3-5" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">0.2121</span>
+              </td>
+              <td class="td11" id="TBL-2-3-6" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">0.1926</span>
+              </td>
+              <td class="td11" id="TBL-2-3-7" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">0.1090</span>
+              </td>
+              <td class="td11" id="TBL-2-3-8" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">0.0619</span>
+              </td>
+            </tr>
+            <tr class="hline">
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+            </tr>
+            <tr id="TBL-2-4-" style="vertical-align:baseline;">
+              <td class="td11" id="TBL-2-4-1" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">w8</span>
+              </td>
+              <td class="td11" id="TBL-2-4-2" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">10</span>
+              </td>
+              <td class="td11" id="TBL-2-4-3" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">0.2966</span>
+              </td>
+              <td class="td11" id="TBL-2-4-4" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">0.0165</span>
+              </td>
+              <td class="td11" id="TBL-2-4-5" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">0.1737</span>
+              </td>
+              <td class="td11" id="TBL-2-4-6" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">0.2416</span>
+              </td>
+              <td class="td11" id="TBL-2-4-7" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">0.1091</span>
+              </td>
+              <td class="td11" id="TBL-2-4-8" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">0.0619</span>
+              </td>
+            </tr>
+            <tr class="hline">
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+            </tr>
+            <tr id="TBL-2-5-" style="vertical-align:baseline;">
+              <td class="td11" id="TBL-2-5-1" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">w9</span>
+              </td>
+              <td class="td11" id="TBL-2-5-2" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">5</span>
+              </td>
+              <td class="td11" id="TBL-2-5-3" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">0.1806</span>
+              </td>
+              <td class="td11" id="TBL-2-5-4" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">0.0522</span>
+              </td>
+              <td class="td11" id="TBL-2-5-5" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">0.1806</span>
+              </td>
+              <td class="td11" id="TBL-2-5-6" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">0.1672</span>
+              </td>
+              <td class="td11" id="TBL-2-5-7" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">0.1044</span>
+              </td>
+              <td class="td11" id="TBL-2-5-8" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">0.0615</span>
+              </td>
+            </tr>
+            <tr class="hline">
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+            </tr>
+            <tr id="TBL-2-6-" style="vertical-align:baseline;">
+              <td class="td11" id="TBL-2-6-1" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">w9</span>
+              </td>
+              <td class="td11" id="TBL-2-6-2" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">10</span>
+              </td>
+              <td class="td11" id="TBL-2-6-3" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">0.2421</span>
+              </td>
+              <td class="td11" id="TBL-2-6-4" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">0.0153</span>
+              </td>
+              <td class="td11" id="TBL-2-6-5" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">0.1449</span>
+              </td>
+              <td class="td11" id="TBL-2-6-6" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">0.2026</span>
+              </td>
+              <td class="td11" id="TBL-2-6-7" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">0.1045</span>
+              </td>
+              <td class="td11" id="TBL-2-6-8" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">0.0615</span>
+              </td>
+            </tr>
+            <tr class="hline">
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+            </tr>
+            <tr id="TBL-2-7-" style="vertical-align:baseline;">
+              <td class="td11" id="TBL-2-7-1" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">w10</span>
+              </td>
+              <td class="td11" id="TBL-2-7-2" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">5</span>
+              </td>
+              <td class="td11" id="TBL-2-7-3" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">0.1733</span>
+              </td>
+              <td class="td11" id="TBL-2-7-4" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">0.0498</span>
+              </td>
+              <td class="td11" id="TBL-2-7-5" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">0.1733</span>
+              </td>
+              <td class="td11" id="TBL-2-7-6" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">0.1567</span>
+              </td>
+              <td class="td11" id="TBL-2-7-7" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">0.0879</span>
+              </td>
+              <td class="td11" id="TBL-2-7-8" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">0.0521</span>
+              </td>
+            </tr>
+            <tr class="hline">
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+            </tr>
+            <tr id="TBL-2-8-" style="vertical-align:baseline;">
+              <td class="td11" id="TBL-2-8-1" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">w10</span>
+              </td>
+              <td class="td11" id="TBL-2-8-2" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">10</span>
+              </td>
+              <td class="td11" id="TBL-2-8-3" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">0.2520</span>
+              </td>
+              <td class="td11" id="TBL-2-8-4" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">0.0151</span>
+              </td>
+              <td class="td11" id="TBL-2-8-5" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">0.1550</span>
+              </td>
+              <td class="td11" id="TBL-2-8-6" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">0.2020</span>
+              </td>
+              <td class="td11" id="TBL-2-8-7" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">0.0880</span>
+              </td>
+              <td class="td11" id="TBL-2-8-8" style="white-space:nowrap; text-align:center;">
+                <span class="cmr-8">0.0521</span>
+              </td>
+            </tr>
+            <tr class="hline">
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+              <td>
+                <hr>
+              </td>
+            </tr>
+            <tr id="TBL-2-9-" style="vertical-align:baseline;">
+              <td class="td11" id="TBL-2-9-1" style="white-space:nowrap; text-align:center;"></td>
+            </tr>
+          </table>
+        </div><br>
+        <div class="caption">
+          <span class="id">Table&#x00A0;1:</span> <span class="content">Probability that concentrations in wells will be above 25 mg/kg with different remediation strategies sampling uniformly from the parameter space.</span>
+        </div><!--tex4ht:label?: x1-2002r1 -->
+      </div>
+      <hr class="endfloat">
+    </div><!--l. 93-->
+    <p class="indent">
+      Furthermore, the probability measure on the parameter space can be used to predict the probabilities of other events, for instance, whether the concentration of the contaminant in a well will be above the MCL (Maximum Concentration Limit). This type of analysis can be used for decision-support, i.e., determining which remediation strategies might be used to prevent contamination from spreading or reaching critical levels of pollution at points of compliance. It can also be used to calculate probability distributions of model outputs and accurately estimating probabilities of remediation failure that the uninformed predictive analysis inaccurately estimates. This is critical when making decisions under uncertainty in model parameters. We demonstrated the predictive analysis by propagating entire events of high probability in the parameter space requiring many model solves as shown in Table <a href="?refs#x1-2002r1">1<!--tex4ht:ref: Tab:UnifProb --></a>. <a id="x1-2003r5"></a>
+    </p>

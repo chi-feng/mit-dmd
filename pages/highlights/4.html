@@ -1,0 +1,31 @@
+
+    <a id="x1-3005r8"></a>
+    <h3 class="sectionHead" id="section-4">
+      <span class="titlemark">4.</span> <a id="x1-40004"></a>Representing uncertainty due to model inadequacy (UT-Austin, MIT, ORNL)
+    </h3><!--l. 4-->
+    <p class="noindent">
+      <span class="cmbx-10">Research thrusts:</span> <span class="cmti-10">Validation, adaptation, &amp; management of models; Advanced</span> <span class="cmti-10">methods for inference</span><br class="newline">
+      <span class="cmbx-10">Research sub-thrusts:</span> <span class="cmti-10">Inadequacy modeling</span> <!--l. 9-->
+    </p>
+    <p class="indent">
+      Inadequacy model approaches to represent the uncertainty due to model errors have been pursued in several different problem domains. Developments in multiple modeling domains is important because our current understanding of model error representation does not yet admit general approaches. Errors in low fidelity models of chemical kinetics, turbulent flows, contaminant dispersion in porous media, and super-capacitors are being pursued. The latter two are of most interest here and are discussed briefly. <!--l. 18-->
+    </p>
+    <p class="indent">
+      The porous media dispersion effort was begun in collaboration with R.&#x00A0;Juanes and the MIT team, who framed the modeling challenge and inadequacy issues. To address inadequacy, we developed a generalization of the stochastic operator formulation devised for chemical kinetics problems. The key to this approach is to identify constraints that our knowledge places on model errors, and to encode those constraints in the inadequacy operator. Three such constraints in this case are linearity, positivity of the contaminant concentrations, and spatial invariance of the dispersion process in a statistically homogeneous medium. This leads to restricting the operator to be linear and shift invariant, which reduces the stochastic representation of the operator to representation of just its spectrum. The positivity constraint is important, and a clean way to impose this constraint is still under development. In the meantime, the ability to infer the operator spectrum, whether deterministic or stochastic, from data was confirmed in a number of test problems. For example, in Fig.&#x00A0;<a href="#x1-4001r7">7<!--tex4ht:ref: fig:inadequacy --></a>, the results of the deterministic inference of the operator spectrum from concentration data is compared to the true spectrum, which is known in this test case. In this case the largest 15 or so eigenvalues were accurately determined, and this was enough to produce accurate evolution of the concentration as also shown in Fig.&#x00A0;<a href="#x1-4001r7">7<!--tex4ht:ref: fig:inadequacy --></a>. An implication of this work is that with sufficiently reliable data for representative porous media, a new model for porous media dispersion can be inferred. Also implied is that the properties of a stochastic inadequacy operator can be effectively inferred. Both of these developments are being pursued. <!--l. 47-->
+    </p>
+    <p class="indent">
+      Development of inadequacy representations for simple zero-dimensional models of supercapacitors was initiated with input from D.&#x00A0;Lebrun-Grandie at ORNL. The model problem being pursued is the up-scaling of a one-dimensional linear model that does not include Faradaic effects. The analytic solution of this &#8220;high fidelity&#8221; model is available and shows that an exact zero-dimensional non-Markovian model can be derived in terms of a history integral. This is impractical in general, so in this case the stochastic inadequacy representation needs to account for the incomplete history information available to the low-fidelity model. This suggests a formulation in terms of an auxiliary stochastic ordinary differential equation representing an uncertain history, and the challenge is to constrain it to be consistent with plausible system state histories.
+    </p>
+    <hr class="figure">
+    <div class="figure">
+      <a id="x1-4001r7"></a> <!--l. 61-->
+      <p class="noindent">
+        <div class="row"><div class="col-sm-6"><img alt="PIC" src="/pages/highlights/figures/RDM_mus-.png"></div><div class="col-sm-6"><img alt="PIC" src="/pages/highlights/figures/RDM_solns-.png"><br></div></div>
+      </p>
+      <div class="caption">
+        <span class="id">Figure&#x00A0;7:</span> <span class="content">Inferred and exact magnitude of the eigenvalues of a dispersion operator (left), and solutions based on the inferred and exact operators (right)</span>
+      </div><!--tex4ht:label?: x1-4001r7 -->
+      <!--l. 67-->
+      <p class="indent"></p>
+    </div>
+    <hr class="endfigure">

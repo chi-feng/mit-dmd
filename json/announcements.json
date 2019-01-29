@@ -1,0 +1,140 @@
+[
+	{
+		"id": "33",
+		"date": "October 15-19, 2018",
+		"timestamp": "2018-10-15",
+		"content": "Diamond PI George Biros is co-organizing the <a href=\"https:\/\/www.ipam.ucla.edu\/programs\/workshops\/workshop-ii-hpc-and-data-science-for-scientific-discovery\/\" target=\"_blank\">IPAM Workshop on HPC and Data Science for Scientific Discovery<\/a>."
+	},
+	{
+		"id": "34",
+		"date": "2018 - 2019",
+		"timestamp": "2018-08-20",
+		"content": "Diamond PI Youssef Marzouk is a Program Leader for the 2018-2019 SAMSI year-long program on <a href=\"https:\/\/www.samsi.info\/programs-and-activities\/year-long-research-programs\/model-uncertainty-mathematical-statistical-mums\/\" target=\"blank\">Model Uncertainty: Mathematical and Statistical<\/a>"
+	},
+	{
+		"id": "32",
+		"date": "June 17-30, 2018",
+		"timestamp": "2018-06-17",
+		"content": "Diamond PIs Omar Ghattas and Youssef Marzouk are co-organizing the 2018 Gene Golub SIAM Summer School Inverse Problems: Systematic Integration of Data with Models under Uncertainty (<a href=\"http:\/\/g2s3.com\/\" target=\"_blank\">http:\/\/g2s3.com\/<\/a>)"
+	},
+	{
+		"id": "31",
+		"date": "March 6-8, 2018",
+		"timestamp": "2018-03-06",
+		"content": "Diamond PI Karen Willcox is co-organizing the <a href=\"https:\/\/www.ima.umn.edu\/2017-2018\/SW3.6-8.18\" target=\"_blank\">IMA workshop Integrating Machine Learning and Simulation: From Uncertainty Quantification to Digital Twins<\/a>"
+	},
+	{
+		"id": "29",
+		"date": "Oct 1-6, 2017",
+		"timestamp": "2017-10-1",
+		"content": "Diamond PI George Biros is co-organizing the BIRS workshop on <a href=\"http:\/\/www.birs.ca\/events\/2017\/5-day-workshops\/17w5155\" target=\"_blank\">Complex Creeping Fluids: Numerical Methods and Theory<\/a>"
+	},
+	{
+		"id": "30",
+		"date": "Jun 26 - Jul 7, 2017",
+		"timestamp": "2017-06-26",
+		"content": "Diamond PI Youssef Marzouk is co-organizing the <a href=\"https:\/\/ws17.amsi.org.au\/\" target=\"_blank\">AMSI Winter School 2017\r\non Computational Foundations of Data Science<\/a> "
+	},
+	{
+		"id": "26",
+		"date": "May 30-31, 2017 Santa Fe, NM",
+		"timestamp": "2017-05-30",
+		"content": "DiaMonD All-Hands Meeting"
+	},
+	{
+		"id": "18",
+		"date": "February 27 - March 3, 2017",
+		"timestamp": "2017-02-27",
+		"content": "The DiaMonD team is organizing 11 minisymposia at <a href=\"https:\/\/www.siam.org\/meetings\/cse17\/\">SIAM CSE 2017<\/a>:\r\n<br>\r\n<a href = \"http:\/\/meetings.siam.org\/sess\/dsp_programsess.cfm?SESSIONCODE=61074\"> MS272 <\/a>: Recent Advances in Computational Subsurface Hydraulic Modeling and Analysis\r\n<br>\r\n<a href = \"http:\/\/meetings.siam.org\/sess\/dsp_programsess.cfm?SESSIONCODE=61319\"> MS165<\/a> and <a href=\"http:\/\/meetings.siam.org\/sess\/dsp_programsess.cfm?SESSIONCODE=61320\"> MS192 <\/a>: Efficient Algorithms for Bayesian Inverse Problems Governed by PDE Forward Problems\r\n<br>\r\n<a href=\"http:\/\/meetings.siam.org\/sess\/dsp_programsess.cfm?SESSIONCODE=61286\"> MS299<\/a> and <a href=\"http:\/\/meetings.siam.org\/sess\/dsp_programsess.cfm?SESSIONCODE=61287\"> MS326  <\/a>: Bayesian Optimal Experimental Design for ODE\/PDE Models\r\n<br>\r\n<a href=\"http:\/\/meetings.siam.org\/sess\/dsp_programsess.cfm?SESSIONCODE=60886\"> MS158<\/a> and <a href=\"http:\/\/meetings.siam.org\/sess\/dsp_programsess.cfm?SESSIONCODE=60887\"> MS185 <\/a>: Multi-Fidelity and Multi-Information-Source Methods \r\n<br>\r\n<a href=\"http:\/\/meetings.siam.org\/sess\/dsp_programsess.cfm?SESSIONCODE=61172\"> MS17<\/a> and <a href=\"http:\/\/meetings.siam.org\/sess\/dsp_programsess.cfm?SESSIONCODE=61173\"> MS46 <\/a>: Advances in MCMC and Related Sampling Methods for Large-Scale Inverse Problems\r\n<br>\r\n<a href=\"http:\/\/meetings.siam.org\/sess\/dsp_programsess.cfm?SESSIONCODE=61293\"> MS29<\/a> and <a href=http:\/\/meetings.siam.org\/sess\/dsp_programsess.cfm?SESSIONCODE=61294\"> MS58 <\/a>: Measure Transport Approaches for Statistical Problems\r\n<br>\r\n<a href=\"http:\/\/meetings.siam.org\/sess\/dsp_programsess.cfm?SESSIONCODE=60931\"> MS220<\/a> and <a href=\"http:\/\/meetings.siam.org\/sess\/dsp_programsess.cfm?SESSIONCODE=60932\"> MS246 <\/a>: Adaptive Methods for Uncertainty Quantification and Error Estimation \r\n<br>\r\n<a href=\"http:\/\/meetings.siam.org\/sess\/dsp_programsess.cfm?SESSIONCODE=61181\"> MS160<\/a> and <a href=\"http:\/\/meetings.siam.org\/sess\/dsp_programsess.cfm?SESSIONCODE=61182\"> MS187 <\/a>: Fast Solvers for Large-Scale Inverse Problems in Imaging\r\n<br>\r\n<a href=\"http:\/\/meetings.siam.org\/sess\/dsp_programsess.cfm?SESSIONCODE=60778\"> MS8<\/a>, <a href=\"http:\/\/meetings.siam.org\/sess\/dsp_programsess.cfm?SESSIONCODE=60779\"> MS37<\/a>, and <a href=\"http:\/\/meetings.siam.org\/sess\/dsp_programsess.cfm?SESSIONCODE=60819\"> MS66 <\/a>: Smooth, Reduced, Sparse -- Exploiting Structures for Surrogate Modeling in CSE\r\n<br>\r\n<a href=\"http:\/\/meetings.siam.org\/sess\/dsp_programsess.cfm?SESSIONCODE=61006\"> MS86 <\/a>: Methods for Data-driven Uncertainty Quantification of Large-scale Complex Dynamic Systems\r\n<br>\r\n<a href=\"http:\/\/meetings.siam.org\/sess\/dsp_programsess.cfm?SESSIONCODE=60873\"> MS201<\/a> and <a href=\"http:\/\/meetings.siam.org\/sess\/dsp_programsess.cfm?SESSIONCODE=60874\"> MS227 <\/a>: PDE-Constrained Optimal Control Under Uncertainty"
+	},
+	{
+		"id": "17",
+		"date": "December 12-16, 2016",
+		"timestamp": "2016-12-12",
+		"content": "<a href=\"https:\/\/fallmeeting.agu.org\/2016\/\">AGU 2016<\/a> session: Transforming hydrologic prediction and decision making through theoretical innovations, collaborative integrated modeling and cyberinfrastructure for data and model sharing"
+	},
+	{
+		"id": "19",
+		"date": "May 9-13, 2016",
+		"timestamp": "2016-05-09",
+		"content": "<a href=\"http:\/\/www.mittag-leffler.se\/workshop\/uncertainty-quantification\">Workshop on Uncertainty Quantification<\/a>, Mittag-Leffler Institute, Stockholm, Sweden"
+	},
+	{
+		"id": "25",
+		"date": "April 5-8, 2016",
+		"timestamp": "2016-04-05",
+		"content": "The DiaMonD team is organizing six minisymposia at <a href=\"https:\/\/www.siam.org\/meetings\/uq16\/\">SIAM UQ 2016<\/a>: (1) Low rank and sparse structure in Bayesian computation, (2) Bayesian inverse problems beyond the conventional setting, (3) Bayesian inversion and low-rank approximation, (4) Advances in sampling methods for Bayesian inverse problems, (5) Advances in optimal experimental design for physical models, (6) Goal-oriented decision making under uncertainty"
+	},
+	{
+		"id": "16",
+		"date": "December 14-18, 2015",
+		"timestamp": "2015-12-14",
+		"content": "<a href=\"http:\/\/fallmeeting.agu.org\/2015\/\">AGU 2015<\/a> session: Concepts and Practice of Model Verification, Validation, and Uncertainty Quantification in Computational Geosciences"
+	},
+	{
+		"id": "24",
+		"date": "September 14-18, 2015",
+		"timestamp": "2015-09-14",
+		"content": "<a href=\"http:\/\/scicade2015.math.uni-potsdam.de\/scicade2015\/index.html\">SciCADE 2015<\/a>: Advances in Bayesian computation for large-scale differential equation models."
+	},
+	{
+		"id": "23",
+		"date": "August 10-14, 2015",
+		"timestamp": "2015-08-10",
+		"content": "The DiaMonD team is organizing two minisymposia at <a href=\"http:\/\/www.iciam2015.cn\/\">ICIAM 2015<\/a>: (1) Advances in MCMC and related sampling methods for large-scale inverse problems, (2) Advances in optimal experimental design"
+	},
+	{
+		"id": "15",
+		"date": "July 15-17, 2015",
+		"timestamp": "2015-07-15",
+		"content": "<a href=\"http:\/\/users.ices.utexas.edu\/~steven\/rocky-mtn-summer-workshop-2015\/program.html\">Rocky Mountain Summer Workshop on Uncertainty Quantification<\/a>"
+	},
+	{
+		"id": "28",
+		"date": "Jun 15-26, 2015",
+		"timestamp": "2015-06-15",
+		"content": "Diamond PI Youssef Marzouk is teaching the IMA short course <a href=\"https:\/\/www.ima.umn.edu\/2014-2015\/ND6.15-26.15\" target=\"_blank\">Introduction to Uncertainty Quantification<\/a>\r\n"
+	},
+	{
+		"id": "27",
+		"date": "Jul 6-10, 2015",
+		"timestamp": "2015-06-10",
+		"content": "Diamond PIs Omar Ghattas and Youssef Marzouk are co-organizing <a href=\"https:\/\/icerm.brown.edu\/idealab\/2015\/\" target=\"_blank\">IdeaLab 2015: Inverse Problems and Uncertainty Quantification at ICERM<\/a>."
+	},
+	{
+		"id": "22",
+		"date": "March 14-18, 2015",
+		"timestamp": "2015-03-14",
+		"content": "The DiaMonD team is organizing four minisymposia at <a href=\"https:\/\/www.siam.org\/meetings\/cse15\/\">SIAM CSE 2015<\/a>: (1) Advances in uncertainty quantification for large-scale inverse problems, (2) Challenges in optimization with uncertain and noisy data, (3) Advances in Algorithms for Uncertainty Quantification in Large- scale Inverse Problems, (4) Efficient Algorithms for Variational Methods in Imaging"
+	},
+	{
+		"id": "21",
+		"date": "March 31 - April 3, 2014",
+		"timestamp": "2014-03-31",
+		"content": "The DiaMonD team is organizing five minisymposia at <a href=\"https:\/\/www.siam.org\/meetings\/uq14\/\">SIAM UQ 2014<\/a>: (1) Advances in MCMC methods for large-scale inverse problems, (2) Surrogate and reduced-order modeling for inference and prediction, (3) Advances in optimal experimental design, (4) Active subspace methods for high-dimensional approximation, (5) High performance computing meets uncertainty quantification"
+	},
+	{
+		"id": "14",
+		"date": "November 11-12, 2013 Austin, TX",
+		"timestamp": "2013-11-11",
+		"content": "DiaMonD All-Hands Meeting"
+	},
+	{
+		"id": "13",
+		"date": "Aug 8-9, 2013 Albuquerque, NM",
+		"timestamp": "2013-08-08",
+		"content": "DiaMonD All-Hands Meeting"
+	},
+	{
+		"id": "12",
+		"date": "May 22-24, 2013 Sante Fe, NM",
+		"timestamp": "2013-03-22",
+		"content": "<a href=\"http:\/\/users.ices.utexas.edu\/~omar\/santafe2013\/\">Workshop on Large-Scale Inverse Problems and Quantification of Uncertainty: Big Data Meets Big Models<\/a>"
+	},
+	{
+		"id": "20",
+		"date": "February 25 - March 1, 2013",
+		"timestamp": "2013-02-25",
+		"content": "The DiaMonD team is organizing the minisymposium \"Numerical  methods for stochastic inverse problems\" at <a href=\"https:\/\/www.siam.org\/meetings\/cse13\/\">SIAM CSE 2013<\/a>."
+	}
+]

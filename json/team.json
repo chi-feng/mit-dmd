@@ -1,0 +1,338 @@
+[
+	{
+		"id": "53",
+		"name": "Mohammad Aladwani",
+		"type": "grad",
+		"affiliation": "MIT"
+	},
+	{
+		"id": "10",
+		"type": "postdoc",
+		"name": "Alen Alexanderian",
+		"affiliation": "UT Austin"
+	},
+	{
+		"id": "22",
+		"type": "grad",
+		"name": "Nick Alger",
+		"affiliation": "UT Austin"
+	},
+	{
+		"id": "23",
+		"type": "grad",
+		"name": "Austin Benson",
+		"affiliation": "Stanford"
+	},
+	{
+		"id": "1",
+		"type": "researcher",
+		"name": "Tan Bui-Thanh",
+		"affiliation": "Assistant Professor, UT Austin"
+	},
+	{
+		"id": "2",
+		"type": "researcher",
+		"name": "Troy Butler",
+		"affiliation": "Assistant Professor, CU Denver"
+	},
+	{
+		"id": "25",
+		"type": "grad",
+		"name": "Ben Crestel",
+		"affiliation": "UT Austin"
+	},
+	{
+		"id": "3",
+		"type": "researcher",
+		"name": "Luis Cueto-Felgueroso",
+		"affiliation": "Research Scientist, MIT"
+	},
+	{
+		"id": "11",
+		"name": "Tiangang Cui",
+		"type": "researcher",
+		"affiliation": "Senior Lecturer, Monash University"
+	},
+	{
+		"id": "26",
+		"type": "grad",
+		"name": "Anil Damle",
+		"affiliation": "Stanford"
+	},
+	{
+		"id": "52",
+		"name": "Pietro de Anna",
+		"type": "postdoc",
+		"affiliation": "MIT"
+	},
+	{
+		"id": "12",
+		"type": "postdoc",
+		"name": "Danial Faghihi",
+		"affiliation": "UT Austin"
+	},
+	{
+		"id": "27",
+		"type": "grad",
+		"name": "Kathryn Farrell",
+		"affiliation": "UT Austin"
+	},
+	{
+		"id": "28",
+		"type": "grad",
+		"name": "Xiaojing Fu",
+		"affiliation": "MIT"
+	},
+	{
+		"id": "13",
+		"name": "Vikram Garg",
+		"type": "postdoc",
+		"affiliation": "UT Austin"
+	},
+	{
+		"id": "29",
+		"type": "grad",
+		"name": "Amir Gholaminejad",
+		"affiliation": "UT Austin"
+	},
+	{
+		"id": "14",
+		"name": "Jehanzeb Hameed",
+		"type": "researcher",
+		"affiliation": "Assistant Professor, University of New Mexico"
+	},
+	{
+		"id": "30",
+		"type": "grad",
+		"name": "Jiachuan He",
+		"affiliation": "UT Austin"
+	},
+	{
+		"id": "48",
+		"name": "Jiachuan He",
+		"type": "grad",
+		"affiliation": "UT Austin"
+	},
+	{
+		"id": "15",
+		"type": "postdoc",
+		"name": "Kenneth Ho",
+		"affiliation": "Stanford"
+	},
+	{
+		"id": "31",
+		"type": "grad",
+		"name": "Tobin Isaac",
+		"affiliation": "UT Austin"
+	},
+	{
+		"id": "32",
+		"type": "grad",
+		"name": "Peter Kang",
+		"affiliation": "MIT"
+	},
+	{
+		"id": "42",
+		"name": "Boris Kramer",
+		"type": "postdoc",
+		"affiliation": "MIT (former)"
+	},
+	{
+		"id": "56",
+		"name": "Damien Lebrun-Grandie",
+		"type": "researcher",
+		"affiliation": "R&amp;D Associate, ORNL"
+	},
+	{
+		"id": "34",
+		"type": "grad",
+		"name": "Ryan Li",
+		"affiliation": "Stanford"
+	},
+	{
+		"id": "33",
+		"type": "grad",
+		"name": "Harriet Li",
+		"affiliation": "MIT"
+	},
+	{
+		"id": "4",
+		"type": "researcher",
+		"name": "Peter Lichtner",
+		"affiliation": "Consultant"
+	},
+	{
+		"id": "49",
+		"name": "Fei Liu",
+		"type": "grad",
+		"affiliation": "Stanford"
+	},
+	{
+		"id": "35",
+		"type": "grad",
+		"name": "Dhairya Malhotra",
+		"affiliation": "UT Austin"
+	},
+	{
+		"id": "16",
+		"type": "postdoc",
+		"name": "Bill March",
+		"affiliation": "UT Austin"
+	},
+	{
+		"id": "36",
+		"type": "grad",
+		"name": "James Martin",
+		"affiliation": "UT Austin"
+	},
+	{
+		"id": "47",
+		"name": "Steve Mattis",
+		"type": "postdoc",
+		"affiliation": "UT Austin"
+	},
+	{
+		"id": "18",
+		"type": "postdoc",
+		"name": "Damon McDougall",
+		"affiliation": "UT Austin"
+	},
+	{
+		"id": "37",
+		"type": "grad",
+		"name": "Victor Minden",
+		"affiliation": "Stanford"
+	},
+	{
+		"id": "38",
+		"name": "Rebecca Morrison",
+		"type": "postdoc",
+		"affiliation": "MIT"
+	},
+	{
+		"id": "58",
+		"name": "Tarek Moselhy",
+		"type": "postdoc",
+		"affiliation": "MIT (former)"
+	},
+	{
+		"id": "19",
+		"name": "Dan O'Malley",
+		"type": "researcher",
+		"affiliation": "LANL"
+	},
+	{
+		"id": "5",
+		"type": "researcher",
+		"name": "Todd Oliver",
+		"affiliation": "Research Associate, UT Austin"
+	},
+	{
+		"id": "43",
+		"name": "Max Opgenoord",
+		"type": "grad",
+		"affiliation": "MIT (former)"
+	},
+	{
+		"id": "39",
+		"type": "grad",
+		"name": "Amir Pahlavan",
+		"affiliation": "MIT"
+	},
+	{
+		"id": "54",
+		"name": "Nishant Panda",
+		"type": "postdoc",
+		"affiliation": "CSU"
+	},
+	{
+		"id": "40",
+		"name": "Matt Parno",
+		"type": "grad",
+		"affiliation": "MIT (former)"
+	},
+	{
+		"id": "46",
+		"name": "Benjamin Peherstorfer",
+		"type": "researcher",
+		"affiliation": "Assistant Professor, University of Wisconsin at Madison"
+	},
+	{
+		"id": "6",
+		"type": "researcher",
+		"name": "Noemi Petra",
+		"affiliation": "Research Associate, UT Austin"
+	},
+	{
+		"id": "51",
+		"name": "Michael Pilosov",
+		"type": "grad",
+		"affiliation": "CU Denver"
+	},
+	{
+		"id": "41",
+		"type": "grad",
+		"name": "Teresa Portone",
+		"affiliation": "UT Austin"
+	},
+	{
+		"id": "45",
+		"name": "Elizabeth Qian",
+		"type": "grad",
+		"affiliation": "MIT"
+	},
+	{
+		"id": "20",
+		"type": "postdoc",
+		"name": "Bryan Quaife",
+		"affiliation": "UT Austin"
+	},
+	{
+		"id": "7",
+		"type": "researcher",
+		"name": "Matthew Reuter",
+		"affiliation": "Eugene P. Wigner Fellow, ORNL"
+	},
+	{
+		"id": "21",
+		"type": "postdoc",
+		"name": "Brendan Sheehan",
+		"affiliation": "CSU"
+	},
+	{
+		"id": "44",
+		"name": "Victor Singh",
+		"type": "grad",
+		"affiliation": "MIT (former)"
+	},
+	{
+		"id": "57",
+		"name": "Alessio Spantini",
+		"type": "grad",
+		"affiliation": "MIT"
+	},
+	{
+		"id": "8",
+		"type": "researcher",
+		"name": "Georg Stadler",
+		"affiliation": "Research Scientist, UT Austin"
+	},
+	{
+		"id": "9",
+		"type": "researcher",
+		"name": "Hari Sundar",
+		"affiliation": "UT Austin"
+	},
+	{
+		"id": "50",
+		"name": "Scott Walsh",
+		"type": "grad",
+		"affiliation": "CU Denver"
+	},
+	{
+		"id": "55",
+		"name": "Lei Wang",
+		"type": "grad",
+		"affiliation": "CSU"
+	}
+]

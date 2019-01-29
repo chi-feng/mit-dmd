@@ -1,0 +1,86 @@
+
+
+    <h3 class="sectionHead" id="section-8">
+      <span class="titlemark">8.</span> <a id="x1-80008"></a>Fast algorithms for highly oscillatory problems (Stanford)
+    </h3><!--l. 3-->
+    <p class="noindent">
+      <span class="cmbx-10">Research thrusts:</span> <span class="cmti-10">Fast &amp; reliable solution of multiphysics/multiscale problems</span><br class="newline">
+      <span class="cmbx-10">Research sub-thrusts:</span> <span class="cmti-10">Fast solvers; Accurate, robust discretizations</span> <!--l. 8-->
+    </p>
+    <p class="indent">
+      Many problems of particular interest to DOE are highly oscillatory, including problems from sonar and radar imaging, computational chemistry, and condensed matter physics. In the past twenty years, modern computational methods have been developed and have become essential tools for understanding these phenomena. However, accurate and efficient solution of these oscillatory problems remain challenging due to the vast problem size and the indefinite nature of the linear operator. The Stanford group has made significant progress in developing novel and practical algorithms for these problems. <!--l. 23-->
+    </p>
+    <p class="indent">
+      We have developed fast solvers and preconditioners for time harmonic high frequency wave problems
+    </p>
+    <hr class="figure">
+    <div class="figure">
+      <a id="x1-8001r11"></a>
+      <div class="center">
+        <!--l. 28-->
+        <p class="noindent"></p>
+        <div class="tabular">
+          <table cellpadding="0" cellspacing="0" class="tabular" id="TBL-3">
+            <colgroup id="TBL-3-1g">
+              <col id="TBL-3-1">
+              <col id="TBL-3-2">
+            </colgroup>
+            <tr id="TBL-3-1-" style="vertical-align:baseline;">
+              <td class="td11" id="TBL-3-1-1" style="white-space:nowrap; text-align:center;">
+                <div class="row"><div class="col-md-12"><img alt="PIC" src="/pages/highlights/figures/G21u-.png"></div></div>
+              </td>
+              <td class="td11" id="TBL-3-1-2" style="white-space:nowrap; text-align:center;">
+                <div class="row"><div class="col-md-12"><img alt="PIC" src="/pages/highlights/figures/G22u-.png"></div></div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div><br>
+      <div class="caption">
+        <span class="id">Figure&#x00A0;11:</span> <span class="content">Total acoustic wave field computed with the Lippmann-Schwinger formulations using the sparsifying preconditioner. Left: Field from a spherical scatterer. Right: Field from a cubic scatterer.</span>
+      </div><!--tex4ht:label?: x1-8001r11 -->
+      <!--l. 42-->
+      <p class="indent"></p>
+    </div>
+    <hr class="endfigure">
+    <!--l. 43-->
+    <p class="indent">
+      in acoustics and electromagnetics. Among them, the sweeping preconditioner and the sparsifying preconditioner have become the most effective methods developed to date for the differential and integral formulations, respectively. These results have appeared in top-tier scientific journals [<a href="?refs#XLYY_">72</a>,&#x00A0;<a href="?refs#XLYMHY15">74</a>,&#x00A0;<a href="?refs#XLYY15">75</a>,&#x00A0;<a href="?refs#XLY_l">81</a>,&#x00A0;<a href="?refs#XLY16a">82</a>,&#x00A0;<a href="?refs#XLY16r">83</a>,&#x00A0;<a href="?refs#XLY16s">86</a>,&#x00A0;<a href="?refs#XYLBDY15">139</a>,&#x00A0;<a href="?refs#XYLY15">140</a>,&#x00A0;<a href="?refs#XY15d">142</a>,&#x00A0;<a href="?refs#XY15f">143</a>,&#x00A0;<a href="?refs#XY15spp">144</a>,&#x00A0;<a href="?refs#XY15spl">145</a>]. The wave fields in Fig.&#x00A0;<a href="#x1-8001r11">11<!--tex4ht:ref: fig:sparsifying --></a> are obtained with the sparsifying preconditioner in fewer than 10 iterations. <!--l. 55-->
+    </p>
+    <p class="indent">
+      We have also developed efficient algorithms for electronic structure calculation, mostly under the framework of density functional theory and tensor networks. The common theme behind this work is identifying the unique geometry and algebraic structures (such as low-rankness, sparsity, multiscale renormalization) and utilizing these structures for developing highly effective and accurate algorithms. The results have appeared or been submitted to top-tier applied mathematics journals [<a href="?refs#XDLY_s">39</a>,&#x00A0;<a href="?refs#XDLY_a">40</a>,&#x00A0;<a href="?refs#XDLY15">41</a>,&#x00A0;<a href="?refs#XLXY_">79</a>,&#x00A0;<a href="?refs#XLY15">84</a>,&#x00A0;<a href="?refs#XLY16f">85</a>,&#x00A0;<a href="?refs#XY_">141</a>]. Fig.&#x00A0;<a href="#x1-8002r12">12<!--tex4ht:ref: fig:scdm --></a> demonstrates the compressed Kohn-Sham orbitals (or Wannier functions) by directly using selected columns of the density matrix (SCDM) developed by our team.
+    </p>
+    <hr class="figure">
+    <div class="figure">
+      <a id="x1-8002r12"></a>
+      <div class="center">
+        <!--l. 67-->
+        <p class="noindent"></p>
+        <div class="tabular">
+          <table cellpadding="0" cellspacing="0" class="tabular" id="TBL-4">
+            <colgroup id="TBL-4-1g">
+              <col id="TBL-4-1">
+              <col id="TBL-4-2">
+            </colgroup>
+            <tr id="TBL-4-1-" style="vertical-align:baseline;">
+              <td class="td11" id="TBL-4-1-1" style="white-space:nowrap; text-align:center;">
+                <div class="row"><div class="col-md-12"><img alt="PIC" src="/pages/highlights/figures/si811_2-.png"></div></div>
+              </td>
+              <td class="td11" id="TBL-4-1-2" style="white-space:nowrap; text-align:center;">
+                <div class="row"><div class="col-md-12"><img alt="PIC" src="/pages/highlights/figures/water211_2-.png"></div></div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div><br>
+      <div class="caption">
+        <span class="id">Figure&#x00A0;12:</span> <span class="content">Isosurfaces for (left) a silicon crystal with 512 Si atoms (yellow balls) and (right) a water system with 64 O atoms (red balls) and 128 H atoms (white balls).</span>
+      </div><!--tex4ht:label?: x1-8002r12 -->
+      <!--l. 79-->
+      <p class="indent"></p>
+    </div>
+    <hr class="endfigure">
+    <!--l. 81-->
+    <p class="indent">
+      Finally, we have also developed disruptive technologies for fast solution for elliptic-type problems in both differential and integral formulations [<a href="?refs#XHY16hifeod">58</a>,&#x00A0;<a href="?refs#XHY16hifeoi">59</a>,&#x00A0;<a href="?refs#XLY_d">73</a>,&#x00A0;<a href="?refs#XMDHY_">97</a>,&#x00A0;<a href="?refs#XMDHY16">98</a>]. By combining the key ideas of multigrid, wavelet, and renormalization together, these methods employ efficient on-the-fly basis changes in order to represent linear differential and integral operators from PDE and data analysis in a data-sparse fashion. The resulting factorization supports matrix functions, linear system solves, and determinant analysis in an almost trivial way. <a id="x1-8003r19"></a>
+    </p>

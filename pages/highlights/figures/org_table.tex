@@ -1,0 +1,220 @@
+\documentclass[11pt]{article}
+% crop the pdf with:
+% pdfcrop --margins '0 0 0 -475'  org_table.pdf org_table.pdf
+%% \usepackage{times}
+% \usepackage{newcent}
+%% FONTS
+%% To get the default sans serif font in latex, uncomment following
+%% line:
+%% Note: the default sf font is much nicer than ariel/helvetica
+ \renewcommand*\familydefault{\sfdefault}
+%%
+%% to get Arial font as the sans serif font, uncomment following line:
+% \renewcommand{\sfdefault}{phv} % phv is the Arial font
+%%
+%% to get Helvetica font as the sans serif font, uncomment following line:
+% \usepackage{helvet}
+ \usepackage{wrapfig}
+%% NATBIB is the one to use here. Just be careful since it puts space
+%% between references; there's probably some customization that
+%% compresses the space out (like the cite package does).
+%% For CDI, space was tight so we went back to cite
+% \usepackage[square,numbers,sort&compress]{natbib}
+%% note that hyperref has problems with the cite package--better to
+%% use natbib
+% \usepackage[sort,nocompress]{cite}
+ \usepackage[sort,compress]{cite}
+% \usepackage[margin=0pt,font=small,labelsep=space,labelfont=bf]{caption}
+\usepackage[small,bf,up]{caption}
+\renewcommand{\captionfont}{\footnotesize}
+\usepackage[left=1in,right=1in,top=1in,bottom=1in]{geometry}
+\usepackage{graphics,epsfig,graphicx,float,subfigure,color}
+\usepackage{algorithm,algorithmic}
+\usepackage{amsmath,amssymb,amsbsy,amsfonts,amsthm}
+\usepackage{multicol}
+% \usepackage{subsec}
+\usepackage{comment}
+\usepackage{array}
+\usepackage{marvosym}
+\usepackage{url}
+\usepackage{boxedminipage}
+\usepackage[sf,bf,small]{titlesec}
+% \usepackage[textsize=footnotesize]{todonotes}
+ \usepackage[plainpages=false, colorlinks=true,
+   citecolor=blue, filecolor=black, linkcolor=blue,
+   urlcolor=blue]{hyperref}
+\usepackage{multirow}
+\usepackage{threeparttable}
+\usepackage{pdfpages}
+
+%\newcommand{\gbIn}[1]{\textcolor{magenta}{#1}}
+\newcommand{\gbIn}[1]{{#1}}
+\newcommand{\gbOut}[1]{}
+
+\newcommand{\todo}[1]{\textcolor{red}{#1}}
+% see documentation for titlesec package
+% \titleformat{\section}{\large \sffamily \bfseries}
+\titlelabel{\thetitle.\,\,\,}
+
+% \renewcommand{\baselinestretch}{0.984}
+
+\newcommand{\gbf}[1]{\text{\boldmath${#1}$\unboldmath}}
+\newcommand{\bs}{\boldsymbol}
+
+\newcommand{\edot}{\dot{\gbf{\varepsilon}}}
+\newcommand{\secinve}{\edot_\mathrm{II}}
+\newcommand{\secinvt}{\gbf{\tau}_\mathrm{II}}
+\newcommand{\cD}{\mathcal{D}}
+\newcommand{\cF}{\mathcal{F}}
+\newcommand{\cL}{\mathcal{L}}
+\newcommand{\cR}{\mathcal{R}}
+
+\newcommand{\obs}{\mathrm{obs}}
+
+\newcommand{\bit}{\begin{itemize}}
+\newcommand{\eit}{\end{itemize}}
+
+\newcommand{\bdm}{\begin{displaymath}}
+\newcommand{\edm}{\end{displaymath}}
+\newcommand{\alert}[1]{\textcolor{red}{#1}}
+% \newcommand{\alert}[1]{\textcolor{SkyBlue3}{#1}}
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\ei}{\end{itemize}}
+
+\newcommand{\mcone}[1]{\multicolumn{1}{c}{#1}}
+\newcommand{\tentwo}[1] {\ensuremath{\boldsymbol{#1}}}
+\newcommand{\tenfour}[1] {\ensuremath{\boldsymbol{\mathsf{#1}}}}
+\renewcommand{\vec}[1] {\ensuremath{\boldsymbol{#1}}}
+
+\newcommand{\zapspace}{\topsep=0pt\partopsep=0pt\itemsep=0pt\parskip=0pt}
+
+\newcommand{\footnoteremember}[2]{\footnote{#2}\newcounter{#1}\setcounter{#1}{\value{footnote}}}
+
+\newcommand{\footnoterecall}[1]{\footnotemark[\value{#1}]}
+
+\definecolor{darkred}{rgb}{.6,.1,.1}
+\definecolor{darkblue}{rgb}{.1,.1,.9}
+\definecolor{grass}{rgb}{.19,.64,.13}
+\definecolor{darkgreen}{RGB}{0,102,0}
+
+\newcommand{\app}{\textcolor{darkred}}
+\newcommand{\thrust}{\textcolor{darkblue}}
+\newcommand{\theme}{\textcolor{red}}
+\newcommand{\resthrust}{\textcolor{darkgreen}}
+
+\newcommand{\AM}{AM } % AM = applied math
+\newcommand{\CSE}{CS\&E}
+\setlength{\emergencystretch}{20pt}
+
+\begin{document}
+
+\begin{center}
+   %% \small
+   %% \begin{tabular}{|c|}
+   %% \hline
+   %% \rule{6.155in}{0ex}\\[-2ex]
+   %% {\bf DiaMonD: An Integrated Multifaceted Approach to} \\ 
+   %% {\bf Mathematics at the Interfaces of Data, Models, and Decisions} \\
+   %%  Center Directors: Ghattas \& Willcox \\
+   %% \end{tabular}
+% -----------------------------------------------------------------------------
+\small
+   \begin{tabular}{|
+ >{\centering}p{1.94in}<{\centering}|
+ >{\centering}p{1.94in}<{\centering}|
+ >{\centering}p{1.93in}<{\centering}|
+ }
+     \hline
+     \multicolumn{3}{|c|}{ }\\[-2ex] % adding a bit of space
+     \multicolumn{3}{|c|}{{\bf \app{DRIVING SCIENTIFIC APPLICATIONS}}}
+     \tabularnewline
+     \hline
+     \app{\mbox{subsurface energy} \\ \mbox{\& environmental flows}}
+     \\ \hspace*{-0.06in} \mbox{(Dawson, Vesselinov, \& Juanes)}&
+     \app{\hspace*{-0.04in} \mbox{electrochemical energy}\\ 
+          \mbox{storage systems}}   
+     \\ (Marzouk \& Turner) &
+     \app{\hspace*{-0.04in} \mbox{dynamics of}\\ \mbox{polar ice sheets}}
+     \\ (Ghattas \& Gunzburger)
+   \end{tabular}
+% -----------------------------------------------------------------------------
+   \small
+   \begin{tabular}{|
+       >{\centering}p{1.8in}<{\centering}|
+       >{\centering}p{1.41in}<{\centering}|
+       >{\centering}p{1.21in}<{\centering}|
+       >{\centering}p{1.22in}<{\centering}|
+     }
+     \hline
+     \multicolumn{4}{|c|}{ }\\[-2ex] % adding a bit of space
+     \multicolumn{4}{|c|}{{\bf \resthrust{RESEARCH THRUSTS}}}
+     \tabularnewline
+     \hline
+     \resthrust{\hspace*{-0.08in}
+       \mbox{fast \& reliable solution of} \\
+       \hspace*{-0.06in}\mbox{multiphysics/multiscale problems}}&
+
+     \resthrust{\hspace*{-0.08in}
+       \mbox{validation, adaptation, \&} \\
+       \mbox{management of models}} &
+
+     \resthrust{\hspace*{-0.04in}
+       \mbox{advanced methods}\\
+       \mbox{for inference}} &
+
+     \resthrust{\hspace*{-0.04in}
+       \mbox{optimization}\\
+       \mbox{under uncertainty}}
+   \end{tabular}
+% -----------------------------------------------------------------------------
+  \small
+   \begin{tabular}{|
+   >{\centering}p{0.56in}<{\centering}|
+   >{\centering}p{0.46in}<{\centering}|
+   >{\centering}p{0.47in}<{\centering}|
+   >{\centering}p{0.55in}<{\centering}|
+   >{\centering}p{0.59in}<{\centering}|
+   >{\centering}p{0.60in}<{\centering}|
+   >{\centering}p{0.45in}<{\centering}|
+   >{\centering}p{0.45in}<{\centering}|
+   >{\centering}p{0.65in}<{\centering}|}
+     \hline
+     \multicolumn{9}{|c|}{ }\\[-2ex] % adding a bit of space
+     \multicolumn{9}{|c|}{{\bf \thrust{CORE APPLIED MATHEMATICS AREAS}}}
+     \tabularnewline
+     \hline
+     \thrust{\hspace*{-0.1in} \mbox{multiphysics} methods} (Estep) &
+     \thrust{\hspace*{-0.08in} \mbox{multiscale} \mbox{methods}} (Oden) &
+     \thrust{fast \hspace*{-0.09in} \mbox{algorithms}} (Ying) &
+     \thrust{model  \hspace*{-0.03in} \mbox{validation}  \& \hspace*{-0.05in} \mbox{inadequacy}}\\ {(Moser)} &
+     \thrust{\hspace*{-0.05in} \mbox{multimodel}\\\mbox{\&}\\ \hspace*{-0.05in}\mbox{multifidelity} methods}
+             \hspace*{-0.08in} \mbox{(Willcox)} &
+     \thrust{model \mbox{reduction}} \hspace*{-0.11in} \mbox{(Gunzburger)} &
+     \thrust{\hspace*{-0.07in} inverse \\ problems \& data fusion}
+     (Biros) &
+     \thrust{optimal design \& control} \hspace*{-0.04in}\mbox{(Ghattas)} &
+     \thrust{uncertainty \hspace*{-0.09in} \mbox{quantification}}
+     \\ (Marzouk, \\ Butler)
+     \tabularnewline
+   \end{tabular}
+% -----------------------------------------------------------------------------
+   \small
+   \begin{tabular}{|c|}
+     \hline
+%
+     \rule{6.155in}{0ex}\\[-2ex]
+          {{\bf \theme{CROSS-CUTTING THEMES}}} \\
+          \hline
+  \theme{advanced discretization}  \hspace{2.0ex} \textbullet \hspace{2.0ex}
+ \theme{adaptivity}  \hspace{2.0ex}\textbullet \hspace{2.0ex}
+ \theme{scalability} \hspace{2.0ex} \textbullet \hspace{2.0ex} \theme{data--model integration} \\
+ \theme{adjoints \& sensitivity}  \hspace{2.0ex}\textbullet \hspace{2.0ex}
+ \theme{dimensionality reduction}  \hspace{2.0ex}\textbullet \hspace{2.0ex}
+ \theme{stochasticity}  \hspace{2.0ex}\textbullet \hspace{2.0ex} \theme{managing uncertainty} \\
+ \hline
+   \end{tabular}
+\end{center}
+
+\end{document} 
+
+

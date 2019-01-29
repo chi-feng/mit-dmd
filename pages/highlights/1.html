@@ -1,0 +1,72 @@
+    <a id="x1-2r1"></a>
+    <h3 class="sectionHead" id="section-1">
+      <span class="titlemark">1.</span> <a id="x1-10001"></a>Prediction of fluid velocity distribution from pore structure in porous media (MIT, UT-Austin)
+    </h3><!--l. 6-->
+    <p class="noindent">
+      <span class="cmbx-10">Research thrusts:</span> <span class="cmti-10">Fast &amp; reliable solution of multiphysics/multiscale problems</span><br class="newline">
+      <span class="cmbx-10">Research sub-thrusts:</span> <span class="cmti-10">Fast solvers; Accurate &amp; robust discretizations; Coarse</span> <span class="cmti-10">graining</span> <!--l. 11-->
+    </p>
+    <p class="indent">
+      Porous media flows have a rich structure, and this spatial and temporal complexity plays a critical role in natural and engineered processes such as groundwater contamination and remediation, water infiltration in soil, geologic carbon sequestration, enhanced hydrocarbon recovery, water filtration systems, and polymer electrolyte fuel cells. Understanding and quantifying velocity heterogeneity in porous media is important because it controls particle spreading and fluid mixing, which often mediates chemical reactions and biological activity. The groups of co-PI Juanes at MIT and co-PI Biros at UT Austin have been collaborating to address a long-standing challenge in porous media flows: predicting the relationship between pore structure and velocity distribution from Stokesian flow through the pore space [<a href="?refs#XdAQBJ16">42</a>]. We derive an analytical relationship between the pore throat size distribution <span class="cmmi-10">f</span><sub><span class="cmmi-7">&#x03BB;</span></sub> <span class="cmsy-10">~</span> <span class="cmmi-10">&#x03BB;</span><sup><span class="cmsy-7">-</span><span class="cmmi-7">&#x03B2;</span></sup> and the distribution of fluid velocity <span class="cmmi-10">f</span><sub><span class="cmmi-7">u</span></sub> <span class="cmsy-10">~</span> <span class="cmmi-10">u</span><sup><span class="cmsy-7">-</span><span class="cmmi-7">&#x03B2;&#x2215;</span><span class="cmr-7">2</span></sup>, based on a conceptual model of <span class="cmti-10">porelets</span>&#8212;Hagen&#8211;Poiseuille flows established within each pore throat. Our model allows us to make predictions for the statistics of spreading of fluid particles along their own trajectories, which are confirmed by high fidelity simulations of Stokes flow and advective transport (Fig.&#x00A0;<a href="#x1-1001r1">1<!--tex4ht:ref: fig-juanes-biros --></a>). The proposed theoretical framework can be extended to other configurations that can be represented as a collection of known flow distributions. Ongoing work seeks to extend the framework to more complex media.
+    </p>
+    <hr class="figure">
+    <div class="figure">
+      <a id="x1-1001r1"></a> <!--l. 46-->
+      <p class="noindent">
+        <div class="row"><div class="col-sm-8 col-sm-offset-2"><img alt="PIC" src="/pages/highlights/figures/fig-juanes-biros-.png"><br></div></div>
+      </p>
+      <div class="caption">
+        <span class="id">Figure&#x00A0;1:</span> <span class="content">(a) Representation of a simple 2D porous medium considered in this study, showing the disordered arrangement of disks (gray circles), and the magnitude of the fluid velocity from a high fidelity simulation of Stokes flow rescaled by the mean velocity, <span class="cmmi-10">u&#x2215;</span><span class="cmsy-10">&#x27E8;</span><span class="cmmi-10">u</span><span class="cmsy-10">&#x27E9;</span>. (b) Zoomed-in view of the red box in (a). (c) Zoomed-in view of the blue box in (b). (d) Schematic of the conceptual model of pipes (cyan squares) associated with pore throats. (e) Same field as in (c), in logarithmic scale. Red color indicates above-average velocity; blue color indicates below-average velocity.</span>
+      </div><!--tex4ht:label?: x1-1001r1 -->
+      <!--l. 59-->
+      <p class="indent"></p>
+    </div>
+    <hr class="endfigure">
+    <!--l. 41-->
+    <p class="indent">
+      As we can see in Fig.&#x00A0;<a href="#x1-1001r1">1<!--tex4ht:ref: fig-juanes-biros --></a> the Stokes flow is resolved to very high resolution. Accurate direct numerical simulation of Stokes flow in the pore scale is itself extremely challenging due to the complex pore microstructure, the indefinite elliptic operators, and complex geometries. In two dimensions, boundary integral equations can be used. But in 3D and for geometries that have random structure, boundary integrals become much more challenging. To address this, we developed a novel numerical scheme for solving the Stokes equation with variable coefficients in the unit box. Our scheme is based on a volume integral equation formulation. Compared to finite element methods, our formulation decouples the velocity and pressure and generates velocity fields that are by construction divergence free to high accuracy, and its performance does not depend on the order of the basis used for discretization. In addition, we employ a novel adaptive fast multipole method for volume integrals to obtain a scheme that is algorithmically optimal and supports non-uniform discretizations. To increase per-node performance, we have integrated our code with both NVIDIA and Intel accelerators. In our largest scalability test, we solved a problem with 20 billion unknowns, using a 14th-order approximation for the velocity, on 2048 nodes of the Stampede system at the Texas Advanced Computing Center. We achieved 0.656 petaFLOPS for the overall code (23% efficiency) and one petaFLOPS for the volume integrals (33% efficiency). This work was a finalist for Best Student Paper at SC14 [<a href="?refs#Xmalhotra-gholami-biros14">89</a>]. Illustrative simulations are shown in Fig.&#x00A0;<a href="#x1-1002r2">2<!--tex4ht:ref: f:porous --></a>.
+    </p>
+    <hr class="figure">
+    <div class="figure">
+      <a id="x1-1002r2"></a>
+      <div class="center">
+        <!--l. 85-->
+        <p class="noindent">
+          <!--l. 86-->
+        </p>
+        <p class="noindent">
+          <div class="row"><div class="col-md-12"><img alt="PIC" src="/pages/highlights/figures/mesh.png"></div></div>
+        </p>
+      </div><br>
+      <div class="caption">
+        <span class="id">Figure&#x00A0;2:</span> <span class="content">Here we illustrate capabilities of the 3D porous media flow solver. From left to right: (1) grey color indicates solid phase geometry, white is pore space, velocity streamlines are superposed; (2) same geometry with clipping to better visualize streamlines; (3) octree leaves; (4) spatial partitioning across different nodes.</span>
+      </div><!--tex4ht:label?: x1-1002r2 -->
+      <!--l. 97-->
+      <p class="indent"></p>
+    </div>
+    <hr class="endfigure">
+    <!--l. 99-->
+    <p class="indent"></p>
+    <hr class="figure">
+    <div class="figure">
+      <a id="x1-1003r3"></a>
+      <div class="center">
+        <!--l. 100-->
+        <p class="noindent">
+          <!--l. 101-->
+        </p>
+        <p class="noindent">
+          <div class="row"><div class="col-md-12"><img alt="PIC" src="/pages/highlights/figures/porous.png"></div></div>
+        </p>
+      </div><br>
+      <div class="caption">
+        <span class="id">Figure&#x00A0;3:</span> <span class="content">Advection-diffusion in a porous medium. Red and orange areas represent solid phase. Streamlines indicate velocity field, which corresponds to stationary Stokes flow through porous medium microstructure (see Fig.&#x00A0;<a href="#x1-1002r2">2<!--tex4ht:ref: f:porous --></a>). Initial condition is linear superposition of three Gaussians indicated by light blue, light green, and yellow. Velocity is calculated using volume integral equation solver; advection-diffusion problem is solved using a semi-Lagrangian scheme for advection and volume integral equation for diffusion. Left-most image depicts initial condition; others show snapshots in time.</span>
+      </div><!--tex4ht:label?: x1-1003r3 -->
+      <!--l. 114-->
+      <p class="indent"></p>
+    </div>
+    <hr class="endfigure">
+    <!--l. 116-->
+    <p class="indent">
+      To study transport phenomena in porous media we also need an advection-diffusion solver (Fig.&#x00A0;<a href="#x1-1003r3">3<!--tex4ht:ref: f:porous2 --></a>). We have designed a novel numerical method for solving the scalar advection-diffusion equation using adaptive mesh refinement. Our solver has three unique characteristics: (1) it supports arbitrary-order accuracy in space; (2) it allows different discretizations for the velocity and scalar advected quantity; (3) it combines the method of characteristics with our volume integral equation formulation; and (4) it supports shared and distributed memory architectures. In particular, our solver is based on a second-order accurate, unconditionally stable, semi-Lagrangian scheme combined with a spatially-adaptive Chebyshev octree for discretization. We have studied the convergence, single-node performance, strong scaling, and weak scaling of our scheme for several challenging flows that cannot be resolved efficiently without using high-order accurate discretizations. For example, we consider problems for which switching from 4th order to 14th order approximation results in two orders of magnitude speedups for a computation in which we keep the target accuracy in the solution fixed. For our largest run, we solve a problem with one billion unknowns on a tree with maximum depth equal to 10 and using 14th-order elements on 16,384 x86 cores on the Stampede system at TACC. This work will appear at SC16 [<a href="?refs#Xbahtiari-biros-malhotra-e16">10</a>]. <a id="x1-1004r1"></a>
+    </p>
